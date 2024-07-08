@@ -1,0 +1,202 @@
+.sidebar {
+    padding-top: 28px;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #363636;
+}
+
+.sidebar__slab {
+    padding: 0 20px 0 25px;
+}
+
+.aside-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__icon {
+    height: 45px;
+    padding-right: 15px;
+}
+
+.logo__name {
+    font-size: 30px;
+    color: #fff;
+    margin-top: -1px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.arrow-left {
+    height: 30px;
+}
+
+.navigate,
+.placeholder,
+.get-help {
+    border-bottom: 1px solid #363636;
+}
+
+.sidebar__title {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.sidebar__list {
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.sidebar__item {
+    padding-left: 35px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    list-style: none;
+}
+
+.sidebar__item a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.navigate ul li:nth-child(1) {
+    background-image: url(../icons/dashboard.png);
+}
+
+.navigate ul li:nth-child(2) {
+    background-image: url(../icons/leaderboard.png);
+}
+
+.navigate ul li:nth-child(3) {
+    background-image: url(../icons/giveaways.png);
+    display: flex;
+    align-items: center;
+}
+
+.navigate ul li:nth-child(4) {
+    background-image: url(../icons/tournament.png);
+}
+
+.navigate ul li:nth-child(5) {
+    background-image: url(../icons/sales.png);
+}
+
+.placeholder ul li:nth-child(1) {
+    background-image: url(../icons/reward.png);
+}
+
+.placeholder ul li:nth-child(2) {
+    background-image: url(../icons/subscription.png);
+}
+
+.placeholder ul li:nth-child(3) {
+    background-image: url(../icons/install.png);
+}
+
+.get-help ul li:nth-child(1) {
+    background-image: url(../icons/faq.png);
+}
+
+.get-help ul li:nth-child(2) {
+    padding-left: 0;
+}
+
+.item-select,
+.item-select a {
+    opacity: 1;
+    filter: brightness(200%);
+}
+
+.soon-label {
+    width: fit-content;
+    padding: 1px;
+    padding-inline: 5px;
+    font-size: 8pt;
+    background-color: #bdff00;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.notice-label {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    background-color: #bdff00;
+    border-radius: 10px;
+    margin-left: -15px;
+}
+
+.quest-wrapper {
+    padding: 10px;
+    height: fit-content;
+    border: 1px solid #4c4c4c;
+    border-radius: 10px;
+}
+
+.quest-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.quest__title {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #8e29f4;
+    font-size: 13px;
+}
+
+.quest__circle-indicator {
+    padding-right: 15px;
+}
+
+.quest__progress {
+    color: #fff;
+    font-size: 14px;
+}
+
+.quest__gems,
+.quest-more {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.quest__line {
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #515151;
+}
+
+.line__inner {
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #bdff00;
+}
+
+.quest__line-indicator {
+    display: flex;
+    align-items: center;
+}

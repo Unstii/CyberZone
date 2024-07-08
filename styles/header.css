@@ -1,0 +1,93 @@
+.header {
+    padding: 15px 90px 15px 50px;
+    margin-left: 300px;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar {
+    display: flex;
+    float: left;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    width: 45vw;
+    background-color: #000;
+    border-radius: 8px;
+    border: 1px solid #363636;
+    border-bottom: 1px solid #bbff0075;
+}
+
+.searchbar__image {
+    display: flex;
+    background: none;
+    border: none;
+}
+
+.search-img {
+    padding: 8px;
+}
+
+.header__items {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+}
+
+.item__icon {
+    padding: 15px;
+    border: 8px solid black;
+    background-image: url(../icons/gift.png);
+    background-position: center;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.header__items :nth-child(2) .item__icon {
+    background-image: url(../icons/gem.png);
+}
+
+.lang-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    padding-right: 8px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.lang-select__arrow {
+    width: 22px;
+    padding-bottom: 2px;
+    margin-left: 5px;
+}
+
+.header__text-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.header__title {
+    opacity: 0.7;
+    font-size: 8px;
+}
