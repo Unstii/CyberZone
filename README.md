@@ -20,7 +20,7 @@ CyberZone is a dynamic and engaging web interface designed for gamers. It featur
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Unstii./cyberzone.git
+    git clone https://github.com/Unstii/cyberzone.git
     ```
 2. Navigate to the project directory:
     ```bash
